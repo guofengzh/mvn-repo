@@ -6,5 +6,10 @@
       <prefix>merge-properties</prefix>
       <artifactId>merge-properties-maven-plugin</artifactId>
     </plugin>
+    <plugin>
+      <name>xmlmerger-maven-plugin Maven Mojo</name>
+      <prefix>xmlmerger</prefix>
+      <artifactId>xmlmerger-maven-plugin</artifactId>
+    </plugin>
   </plugins>
 </metadata>
