@@ -11,11 +11,12 @@
   <version>1</version>
   <packaging>pom</packaging>
 
+  <!-- deploy configuration for mvn deploy -->
   <distributionManagement>
     <snapshotRepository>
       <id>internal.repo</id>
       <name>MyCo Internal Repository</name>
-      <url>file:///D:/projects/planner/maven-repo/snapshots</url>
+      <url>file:///C:/mvn-repo/snapshots</url>
       <releases>
         <enabled>false</enabled>
       </releases>
@@ -26,7 +27,7 @@
     <repository>
       <id>internal.repo</id>
       <name>MyCo Internal Repository</name>
-      <url>file:///D:/projects/planner/maven-repo/releases</url>
+      <url>file:///C:/mvn-repo/releases</url>
       <releases>
         <enabled>true</enabled>
       </releases>
