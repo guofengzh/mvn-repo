@@ -32,6 +32,14 @@
   <name>Maven Merge Properties Plugin</name>
   <description>Merges multiple properties files into one.</description>
  
+ <repositories>
+    <repository>
+      <id>guofengzh-repo</id>
+      <name>The Maven Repository</name>
+      <url>https://github.com/guofengzh/mvn-repo/raw/master/releases</url>
+    </repository>
+  </repositories>
+ 
   <build>
 		<plugins>
 			<plugin>
