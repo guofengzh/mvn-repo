@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>redis.clients</groupId>
+  <artifactId>jedis</artifactId>
+  <versioning>
+    <release>2.7.2.a</release>
+    <versions>
+      <version>2.7.2.a</version>
+    </versions>
+    <lastUpdated>20150909070053</lastUpdated>
+  </versioning>
+</metadata>
