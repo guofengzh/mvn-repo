@@ -5,7 +5,7 @@
     <artifactId>sedis_2.11</artifactId>
     <packaging>jar</packaging>
     <description>sedis</description>
-    <version>1.2.2.a</version>
+    <version>1.2.2.b</version>
     <name>sedis</name>
     <organization>
         <name>org.sedis</name>
