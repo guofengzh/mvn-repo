@@ -1,3 +1,16 @@
-Using
-   https://github.com/guofengzh/mvn-repo/raw/master/releases
-as the repository url to reference this repository.
+Configuring your pom.xml as the following to use this repository:
+
+   <repositories>
+      <repository>
+        <id>mvn-repo</id>
+        <name>mvn-repo repository</name>
+        <url>https://github.com/guofengzh/mvn-repo/raw/master/releases</url>
+      </repository>
+   </repositories>
+   <pluginRepositories>
+      <pluginRepository>
+        <id>mvn-repo</id>
+        <name>mvn-repo plugin repository</name>
+        <url>https://github.com/guofengzh/mvn-repo/raw/master/releases</url>
+      </pluginRepository>
+   </pluginRepositories>
